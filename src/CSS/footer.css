@@ -1,9 +1,14 @@
-.footer-container{
-    display:flex;
-    width:100%;
+.footer-container {
+  display: flex;
+  width: 100%;
 }
-.footer-container h4{
-    margin:auto;
-    color:white;
-    padding:10px;
+.footer-container h4 {
+  margin: auto;
+  color: white;
+  padding: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .footer-container {
+    flex-direction: column;
+  }
 }
