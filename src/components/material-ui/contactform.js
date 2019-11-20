@@ -32,7 +32,7 @@ export default function ContactForm() {
       className="flex"
       noValidate
       autoComplete="off"
-      action={"https://formspree.io/ijd.irving@gmail.com"}
+      action={"https://formspree.io/yis.art@outlook.com"}
       method="post"
       style={{ background: "white", borderRadius: "20px" }}
     >

@@ -69,7 +69,7 @@ export default function Homepage(props) {
         <div className="map-contact-container">
           <div className="googlemap">
             <h3 className="center" style={{ color: "white" }}>
-              Ak. 15 #74-60, Bogotá, Colombia PISO 2
+            Cra15 #73-45, Bogotá, Colombia PISO 2
             </h3>
             <Map />
           </div>

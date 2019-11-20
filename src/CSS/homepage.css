@@ -88,10 +88,10 @@
 
 .navigation a {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   margin: 0 20px;
-  font-family: Pristina;
-  color:#E6AB1C
+  font-family: Lucida Handwriting;
+  color:#FF006D
 }
 @media only screen and (max-width: 700px) {
   .navigation {
@@ -119,8 +119,8 @@
 .title {
   font-size: 50px;
   text-align: center;
-  font-family: Pristina;
-  color:#E6AB1C;
+  font-family: Lucida Handwriting;
+  color:#FF006D;
   font-weight: bold;
   /* border-bottom:solid black 10px; */
 }

@@ -5,7 +5,7 @@ import {
   NotFound,
   Footer
 } from "./components/storeRoutes/storeRoutes";
-import cornerBorder from "./images/cornerborder.svg";
+import cornerBorder from "./images/yisag2.png";
 function App() {
   return (
     <div className="App">
@@ -16,30 +16,37 @@ function App() {
           <Route path="*" component={NotFound} />
         </Switch>
       </header>
-      <div style={{position: "fixed", width: "100vw", height: "100vh" }}>
-        <img
-          src={cornerBorder}
-          style={{ width: "110px", left: "0%", top: "0%", position: "fixed" }}
-        />
+      <div style={{ position: "fixed", width: "100vw", height: "100vh" }}>
         <img
           src={cornerBorder}
           style={{
-            width: "110px",
+            width: "90px",
             left: "0%",
-            bottom: "0%",
+            top: "0%",
             position: "fixed",
-            transform: "rotate(270deg)"
+            transform: "scaleX(-1)"
           }}
         />
         <img
           src={cornerBorder}
           style={{
-            width: "110px",
+            width: "90px",
+            left: "0%",
+            bottom: "0%",
+            position: "fixed",
+            transform: "scaleX(-1)"
+            // transform: "rotate(270deg)"
+          }}
+        />
+        <img
+          src={cornerBorder}
+          style={{
+            width: "90px",
             right: "0%",
             bottom: "0%",
             // float: "right",
-            position: "fixed",
-            transform: "rotate(180deg)"
+            position: "fixed"
+            // transform: "rotate(180deg)"
           }}
         />
         <img
@@ -48,11 +55,11 @@ function App() {
             right: "100%",
             top: "0%",
             // width: "100px",
-            width: "110px",
+            width: "90px",
             right: "0%",
             float: "right",
-            position: "fixed",
-            transform: "rotate(90deg)"
+            position: "fixed"
+            // transform: "rotate(90deg)"
           }}
         />
       </div>
