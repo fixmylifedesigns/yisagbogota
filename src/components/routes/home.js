@@ -1,11 +1,11 @@
 import React from "react";
 import cartoon from "../../images/logo.svg";
+import logo from '../../images/yisag.png'
 import "../../CSS/homepage.css";
 import Map from "../googlemaps/map";
 import ContactForm from "../material-ui/contactform";
 import MobileMenu from "../material-ui/mobilemenu";
 import Button from "@material-ui/core/Button";
-import { Link } from "react-router-dom";
 import InstaGrid from "../instagram/instaGrid";
 
 export default function Homepage(props) {
@@ -18,7 +18,7 @@ export default function Homepage(props) {
 
         <div className="section-container">
           <div className="all-content">
-            <img src={cartoon} alt="portrait" className="portrait" />
+            <img src={logo} alt="portrait" className="portrait" />
           </div>
           <nav className="navigation none">
             {/* <Link to="/projects">Gallery</Link> */}
