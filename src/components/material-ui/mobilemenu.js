@@ -87,7 +87,7 @@ export default function MobileMenus(props) {
          
         </StyledMenuItem> */}
         <StyledMenuItem>
-          <a href="wa.me/573193472867" style={linkStyle}>
+          <a href="https://wa.me/573193472867" style={linkStyle}>
           Whatsapp
           </a>
         </StyledMenuItem>
