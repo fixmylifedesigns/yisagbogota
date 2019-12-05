@@ -31,6 +31,16 @@ export default function Homepage(props) {
       <section id="recentprojects" className="section light">
         <div className="section-container">
           <h1 className="title font-light ">
+            Specials{"     "}
+          </h1>
+          <div className="cards-container">
+            <InstaGrid account="enelprincipiotodoeraoscuridad" />
+          </div>
+        </div>
+      </section>
+      <section id="recentprojects" className="section light">
+        <div className="section-container">
+          <h1 className="title font-light ">
             INSTAGRAM{"     "}
             <Button
               style={{

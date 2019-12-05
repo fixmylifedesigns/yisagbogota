@@ -65,7 +65,7 @@ export default function MobileMenus(props) {
         // variant="contained"
         // color="primary"
         onClick={handleClick}
-        style={{ background:"#FF006D" }}
+        style={{ background:"rgb(158, 0, 69)" }}
       >
         Menu<MoreVertIcon style={{ color: "#282c34" }} />
       </Button>

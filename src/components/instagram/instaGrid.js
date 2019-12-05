@@ -37,7 +37,7 @@ const InstaGrid = ({ classes, media, account, status}: Props) => {
         //   <Grid item xs={12} sm={6} md={4} key={id || displayImage}>
         <div style={{width:"300px", height:"300px", padding:"5px"}}>
             <ButtonBase
-              href={postLink || `https://www.instagram.com/${account}/`}
+              href={`https://www.instagram.com/${account}/`}
             >
               <img
                 src={displayImage}

@@ -55,7 +55,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: purple;
+  background-color: rgb(37, 0, 37);
 }
 
 code {

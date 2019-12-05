@@ -5,7 +5,7 @@
   flex-direction: column;
 }
 .dark {
-  background-color: rgb(87, 0, 87);
+  /* background-color: rgb(87, 0, 87); */
   width: 100%;
   /* height: 100vh; */
   min-height: 100vh;
@@ -15,7 +15,7 @@
   color: #282c34;
 }
 .light {
-  background-color: rgb(87, 0, 87);
+  /* background-color: rgb(87, 0, 87); */
   width: 100%;
 }
 .center {
@@ -67,11 +67,6 @@
   width: 100%;
   align-content: center;
 }
-.cards-container{
-  margin:auto;
-  max-width: 1260px;
-}
-
 .portrait {
   margin: auto 20px;
   width: 400px;
@@ -117,7 +112,7 @@
   }
 }
 .title {
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   font-family: Lucida Handwriting;
   color:#FF006D;
