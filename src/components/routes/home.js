@@ -1,6 +1,6 @@
 import React from "react";
 import cartoon from "../../images/logo.svg";
-import logo from '../../images/yisag.png'
+import logo from "../../images/yisag.png";
 import "../../CSS/homepage.css";
 import Map from "../googlemaps/map";
 import ContactForm from "../material-ui/contactform";
@@ -13,7 +13,13 @@ export default function Homepage(props) {
     <div>
       <section id="header" className="intro section dark">
         <div className="mobileMenuContainer">
-          <MobileMenu />
+          <a
+            href="https://wa.me/573193472867"
+            className="mobileNav"
+          >
+            {" "}
+            Whatsapp
+          </a>
         </div>
 
         <div className="section-container">
@@ -30,9 +36,7 @@ export default function Homepage(props) {
       </section>
       <section id="recentprojects" className="section light">
         <div className="section-container">
-          <h1 className="title font-light ">
-            Specials{"     "}
-          </h1>
+          <h1 className="title font-light ">Specials{"     "}</h1>
           <div className="cards-container">
             <InstaGrid account="enelprincipiotodoeraoscuridad" />
           </div>
@@ -79,7 +83,7 @@ export default function Homepage(props) {
         <div className="map-contact-container">
           <div className="googlemap">
             <h3 className="center" style={{ color: "white" }}>
-            Cra15 #73-45, Bogotá, Colombia PISO 2
+              Cra15 #73-45, Bogotá, Colombia PISO 2
             </h3>
             <Map />
           </div>
