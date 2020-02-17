@@ -13,13 +13,11 @@ export default function Homepage(props) {
     <div>
       <section id="header" className="intro section dark">
         <div className="mobileMenuContainer">
-          <a
-            href="https://wa.me/573193472867"
-            className="mobileNav"
-          >
-            {" "}
-            Whatsapp
-          </a>
+          <button className="mobileMenuButton">
+            <a href="https://wa.me/573193472867" className="mobileNav">
+              Whatsapp
+            </a>
+          </button>
         </div>
 
         <div className="section-container">
