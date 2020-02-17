@@ -19,6 +19,7 @@ function App() {
       <div style={{ position: "fixed", width: "100vw", height: "100vh" }}>
         <img
           src={cornerBorder}
+          alt=""
           style={{
             width: "90px",
             left: "0%",
@@ -29,41 +30,38 @@ function App() {
         />
         <img
           src={cornerBorder}
+          alt=""
           style={{
             width: "90px",
             left: "0%",
             bottom: "0%",
             position: "fixed",
             transform: "scaleX(-1)"
-            // transform: "rotate(270deg)"
           }}
         />
         <img
           src={cornerBorder}
+          alt=""
           style={{
             width: "90px",
             right: "0%",
             bottom: "0%",
-            // float: "right",
             position: "fixed"
-            // transform: "rotate(180deg)"
           }}
         />
         <img
           src={cornerBorder}
+          alt=""
           style={{
-            right: "100%",
             top: "0%",
-            // width: "100px",
             width: "90px",
             right: "0%",
             float: "right",
             position: "fixed"
-            // transform: "rotate(90deg)"
           }}
         />
       </div>
-      <Footer />{" "}
+      <Footer />
     </div>
   );
 }
