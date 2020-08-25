@@ -75,7 +75,7 @@ export default function Homepage(props) {
           <br />
           <h3>CONTACT</h3>
           <p>+57 319 3472867</p>
-        {/*   <p>hdjdjejewi@GMAIL.COM</p>*/}
+        <p>hdjdjejewi@GMAIL.COM</p>
         </div> */}
         <div className="map-contact-container">
           <div className="googlemap">
