@@ -27,18 +27,18 @@ export default function Homepage(props) {
             {/* <Link to="/projects">Gallery</Link> */}
             <a href="https://wa.me/573193472867">Whatsapp</a>
             {/* <a href="https://github.com/fixmylifedesigns">Contact</a> */}
-            <a href="https://www.instagram.com/yisag_/">Instagram</a>
+            <a href="https://www.instagram.com/yisag_tattoo/">Instagram</a>
           </nav>
         </div>
       </section>
-      <section id="recentprojects" className="section light">
+   {/* <section id="recentprojects" className="section light">
         <div className="section-container">
           <h1 className="title font-light ">Specials{"     "}</h1>
           <div className="cards-container">
             <InstaGrid account="enelprincipiotodoeraoscuridad" />
           </div>
         </div>
-      </section>
+      </section>*/}
       <section id="recentprojects" className="section light">
         <div className="section-container">
           <h1 className="title font-light ">
@@ -49,7 +49,7 @@ export default function Homepage(props) {
               }}
             >
               <a
-                href="https://www.instagram.com/yisag_/"
+                href="https://www.instagram.com/yisag_tattoo/"
                 style={{
                   fontWeight: "bold",
                   color: "white",
@@ -61,7 +61,7 @@ export default function Homepage(props) {
             </Button>
           </h1>
           <div className="cards-container">
-            <InstaGrid account="yisag_" />
+            <InstaGrid account="yisag_tattoo" />
           </div>
         </div>
       </section>
@@ -75,7 +75,7 @@ export default function Homepage(props) {
           <br />
           <h3>CONTACT</h3>
           <p>+57 319 3472867</p>
-          <p>hdjdjejewi@GMAIL.COM</p>
+        {/*   <p>hdjdjejewi@GMAIL.COM</p>*/}
         </div> */}
         <div className="map-contact-container">
           <div className="googlemap">
